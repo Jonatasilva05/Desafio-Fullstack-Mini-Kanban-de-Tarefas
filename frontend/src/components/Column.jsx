@@ -1,6 +1,12 @@
 import Card from "./Card";
 
-function Column({ titulo, tarefas }) {
+function Column({
+    titulo,
+    tarefas,
+    aoEditar,
+    aoExcluir,
+    aoMover
+}) {
 
     return (
 
@@ -13,12 +19,12 @@ function Column({ titulo, tarefas }) {
                 tarefas.map((tarefa) => (
 
                     <Card
-
-                        key={tarefa.id}
-
-                        tarefa={tarefa}
-
-                    />
+    key={tarefa.id}
+    tarefa={tarefa}
+    aoEditar={aoEditar}
+    aoExcluir={aoExcluir}
+    aoMover={aoMover}
+/>
 
                 ))
 

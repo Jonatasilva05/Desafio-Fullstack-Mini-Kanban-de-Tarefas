@@ -1,33 +1,38 @@
 import Column from "./Column";
 
-function Board({ tarefas }) {
+function Board({
+    tarefas,
+    aoEditar,
+    aoExcluir,
+    aoMover
+}) {
 
     return (
 
         <main className="board">
 
             <Column
-
                 titulo="A Fazer"
-
-                tarefas={tarefas.filter(tarefa => tarefa.status === "todo")}
-
+                tarefas={tarefas.filter(t => t.status === "todo")}
+                aoEditar={aoEditar}
+                aoExcluir={aoExcluir}
+                aoMover={aoMover}
             />
 
             <Column
-
                 titulo="Em Progresso"
-
-                tarefas={tarefas.filter(tarefa => tarefa.status === "doing")}
-
+                tarefas={tarefas.filter(t => t.status === "doing")}
+                aoEditar={aoEditar}
+                aoExcluir={aoExcluir}
+                aoMover={aoMover}
             />
 
             <Column
-
                 titulo="Concluídas"
-
-                tarefas={tarefas.filter(tarefa => tarefa.status === "done")}
-
+                tarefas={tarefas.filter(t => t.status === "done")}
+                aoEditar={aoEditar}
+                aoExcluir={aoExcluir}
+                aoMover={aoMover}
             />
 
         </main>
