@@ -104,6 +104,8 @@ main.jsx
 
 ## Fluxo da aplicação
 
+![Status Em progresso Tarefa](./assets/user_flow.png)
+
 Usuário
 
 ↓
@@ -232,9 +234,6 @@ https://www.linkedin.com/in/jônatas-silva-714a9a216/
 <br>
 
 ![React](https://img.shields.io/badge/React-19-blue)
-
 ![Go](https://img.shields.io/badge/Go-1.24-cyan)
-
 ![REST API](https://img.shields.io/badge/API-REST-green)
-
 ![Status](https://img.shields.io/badge/Status-Concluído-success)
