@@ -1,4 +1,6 @@
 ### main.go 
+- Esse arquivo é o que inicia o servidor e de maneira explicativa, quem quiser conversar comigo use a porta 8080
+
 - switch - Ele verifica qual o tipo de requisição chegou (se for Get lista as tarefas, se for Post cria uma tarefa)
 
 ---

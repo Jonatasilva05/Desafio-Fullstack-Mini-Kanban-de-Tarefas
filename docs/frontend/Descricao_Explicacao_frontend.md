@@ -1,5 +1,25 @@
 #### Separação de cada arquivo
-- App.jsx - Onde é exibido a aplicação
+- App.jsx - Onde é exibido a aplicação, é o chefe
+
+        Ele controla
+        - lista de tarefas
+        - loading
+        - erro
+        Ele busca dados.
+        Ele salva, exclui, edita, e exibe
+        Ele envia informações para os outros componentes.
+
+- Header.jsx - Apenas mostra o titulo da aplicação
+
+- TaskForm - É o formulário, ele cria as tarefas
+        
+        OBS: porem quando clica no botao adicionar ele nao salva apenas avisa que o usuario quer criar uma tarefa
+
+- Board.jsx - É o quadro inteiro, ele quem organiza as colunas
+
+- Column.jsx - É cada coluna da lista: A fazer, Em progresso, Concluído
+
+- Card.jsx - É uma tarefa 
 
 <br>
 

@@ -16,6 +16,16 @@ Bibliotecas
 
 <br>
 
+
+#### Separação de cada arquivo
+- main.go - é quem inicia o servidor
+- models.go - é quem guarda os modelos(moldes, ex(tasks))
+- handlers.go - é quem guarda as funções (ex GET, POST, DELETE) tambem pode ser associada a um garçom
+- cors.go - É o segurança o navegador diz "um momento...Endereços diferentes, posso deixar um conversar com o outro? (por segurança ele bloqueia) " então o cors diz "sim, pode", Sem o cors o React não conversa com o Backend afinal são portas diferente
+
+
+<br>
+
 ## Primeira Parte
 
 - package(nome do pacote) - é para informar o pacote principal
@@ -55,16 +65,6 @@ Bibliotecas
 - getTasks() - Ela pega a lista e transforma em JSON
 
 - JSON (É um formato de texto usado para trocar informações entre sistemas)
-
-<br>
-
-## Terceira Parte
-
-#### Separação de cada arquivo
-- main.go - é quem inicia o servidor
-- models.go - é quem guarda os modelos(moldes, ex(tasks))
-- handlers.go - é quem guarda as funções (ex GET, POST, DELETE)
-- cors.go - É o segurança o navegador diz "um momento...Endereços diferentes, posso deixar um conversar com o outro? (por segurança ele bloqueia) " então o cors diz "sim, pode", Sem o cors o React não conversa com o Backend afinal são portas diferente
 
 <br>
 

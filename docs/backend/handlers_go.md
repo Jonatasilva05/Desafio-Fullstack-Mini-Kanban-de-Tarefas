@@ -1,4 +1,10 @@
 ### handlers.go
+- Esse arquivo é o garçom 
+
+        O React diz quero todas as tarefas
+        O handlers responde
+        - Aqui estão 
+
 - /tasks - quando alguem tenta acessar o Go responde em JSON
 
 - json.NewEncoder(w).Encode(tasks) - esta dizendo transforme as tarefas em JSON
