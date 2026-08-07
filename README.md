@@ -67,7 +67,7 @@ main.jsx
 
 ✔ Criar tarefa
 
-![Criar Tarefa](./assets/Info.gif)
+![Status Em progresso Tarefa](./assets/a_fazer.gif)
 
 ✔ Editar tarefa
 
